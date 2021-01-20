@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 100 em;
+    
+    font-weight: 900;
+    padding-top: 0px;
+    background-image: url("../images/canadian-dollar/canadian-dollar.png");
+    
+    
+}
+
+.our-content{
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+
+
+}
+
+.active{
+    background-color: greenyellow;
+
+}
+
+
+
+button:hover{
+    background-color:orangered;
+
+
+}
+
+li {
+    display: inline;
+    color: white;
+    font-weight: 900;
+    float: left;
+    
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
